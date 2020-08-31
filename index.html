@@ -24,7 +24,7 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url("a.jpg");
+  background-image: url("a1.jpg");
   min-height: 100%;
 }
 
@@ -36,7 +36,7 @@ body, html {
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("c.jpg");
+  background-image: url("d.jpg");
   min-height: 400px;
 }
 
@@ -64,9 +64,9 @@ body, html {
 		<a href="#skills" class="w3-bar-item w3-button w3-hide-small w3-text-dark-gray"><i class="fa fa-th"></i> SKILLS</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small w3-text-dark-gray"><i class="fa fa-th"></i> PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-text-dark-gray"><i class="fa fa-envelope"></i> CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+    <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
-    </a>
+    </a> -->
   </div>
 
   <!-- Navbar on small screens -->
@@ -75,7 +75,7 @@ body, html {
     <a href="#skills" class="w3-bar-item w3-button" onclick="toggleFunction()">SKILLS</a>
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+    <!-- <a href="#" class="w3-bar-item w3-button">SEARCH</a> -->
   </div>
 </div>
 
@@ -83,7 +83,7 @@ body, html {
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
     <!-- <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">WEBSITE</span> LOGO</span> -->
-		<span class="w3-center w3-padding w3-pale-green w3-large w3-animate-opacity"> &nbsp |  &nbsp Software Engineer &nbsp | &nbsp DevOps &nbsp | &nbsp Full-Stack &nbsp | &nbsp</span> <br><br><span class="w3-center w3-padding w3-pale-green w3-large w3-animate-opacity"> &nbsp |  &nbsp Cloud Computing &nbsp |  &nbsp Computational Finance &nbsp | &nbsp</span>
+		<span class="w3-center w3-padding w3-deep-orange w3-large w3-animate-opacity"> Software Engineer &nbsp | &nbsp DevOps &nbsp | &nbsp Full-Stack </span> <br><br><span class="w3-center w3-padding w3-deep-orange w3-large w3-animate-opacity"> Cloud Computing &nbsp |  &nbsp Computational Finance </span>
   </div>
 </div>
 
@@ -118,13 +118,13 @@ experience using Google Cloud DataProc and AWS cloud services.</p> -->
 	<hr>
 
   <p class="w3-large">Languages :</p>
-	<div class="w3-container w3-padding-small w3-dark-grey w3-center" style="text-align: center; width:100%"> Java &nbsp | &nbsp Python &nbsp | &nbsp R  &nbsp | &nbsp C++ &nbsp | &nbsp HTML &nbsp | &nbsp CSS </div>
-	<div class="w3-container w3-padding-small w3-light-grey w3-center" style="width:100%"> SQL &nbsp | &nbsp Javascript </div>
+	<div class="w3-container w3-padding-small w3-amber w3-center" style="text-align: center; width:100%"> Java &nbsp | &nbsp Python &nbsp | &nbsp R  &nbsp | &nbsp C++ &nbsp | &nbsp HTML &nbsp | &nbsp CSS </div>
+	<div class="w3-container w3-padding-small w3-sand w3-center" style="width:100%"> SQL &nbsp | &nbsp Javascript </div>
 
 	<p class="w3-large">Software and Tools :</p>
-	<div class="w3-container w3-padding-small w3-dark-grey w3-center" style="text-align: center; width:100%"> MapReduce &nbsp | &nbsp  AWS &nbsp | &nbsp Google Cloud DataProc (GCP)</div>
-	<div class="w3-container w3-padding-small w3-light-grey w3-center" style="width:100%"> Apache Hadoop Spark &nbsp | &nbsp Docker &nbsp | &nbsp Jenkins &nbsp | &nbsp GIT</div>
-	<div class="w3-container w3-padding-small w3-dark-grey w3-center" style="text-align: center; width:100%"> Android  &nbsp | &nbsp RESTful API </div>
+	<div class="w3-container w3-padding-small w3-amber w3-center" style="text-align: center; width:100%"> MapReduce &nbsp | &nbsp  AWS &nbsp | &nbsp Google Cloud DataProc (GCP)</div>
+	<div class="w3-container w3-padding-small w3-sand w3-center" style="width:100%"> Apache Hadoop Spark &nbsp | &nbsp Docker &nbsp | &nbsp Jenkins &nbsp | &nbsp GIT</div>
+	<div class="w3-container w3-padding-small w3-amber w3-center" style="text-align: center; width:100%"> Android  &nbsp | &nbsp RESTful API </div>
 
 </div>
 
@@ -158,29 +158,61 @@ experience using Google Cloud DataProc and AWS cloud services.</p> -->
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <h3 class="w3-center">MY WORK</h3>
+  <h3 class="w3-center">My work</h3>
   <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
 
+  <p class="w3-large">Stock market prediction:</p>
+  <p style=" text-align: justify;"> <ul> <li> Improvised volatility prediction using neural networks for computing stock and option prices using Monte-Carlo pricing method in parallel via MapReduce on cloud resources. </li>
+  <li> Implemented data scrapping, stock market analysis, data estimates using R and Python. Worked on Google’ GDP and AWS’s EMR. </li>
+  <li> GitHub Repo : <a href="https://github.com/manmohits/DDNA-Forecasting-Stock-market"> DDNA-Forecasting-Stock-market  </a> </li> </ul></p> 
+
+  <br>
+
+  <p class="w3-large">Advice for online CNN algorithm:</p>
+  <p style=" text-align: justify;"> <ul> <li> Evaluated the concept of introducing advice in online orthogonal k-server CNN algorithm and studied its advice complexity. </li>
+  <li> Implemented Potential function, resource management and self adjusting data structures. </li></ul></p>
+
+    <br>
+
+  <p class="w3-large">Anonymization of CCTV surveillance:</p>
+  <p style=" text-align: justify;"> <ul> <li> Developed a tool to anonymize the security camera surveillance videos to study themovement of people, i.e. by preserving the identity of people. </li>
+  <li> Implemented blurring, pixelization, and foreground masking. </li></ul></p>
+
+    <br>
+
+  <p class="w3-large">PPD website prototype:</p>
+  <p style=" text-align: justify;"> <ul> <li> Worked on full-stack development of prototype for the Punjab Police website. </li>
+  <li> Implemented advanced search, dynamic strings, pixel-by-pixel image comparator using Java and Javascript. </li></ul></p>
+
+
+    <br>
+
+
+
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+  <!-- <div class="w3-row-padding w3-center">
+    <div class="w3-col m4">
+      <p style=" text-align: justify;">Welcome to my website. Proficient in using Java, R and Python on Linux and Windows environment. Strong working
+    experience using Google Cloud DataProc and AWS cloud services.</p>
     </div>
 
-    <div class="w3-col m3">
-      <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+    <div class="w3-col m4">
+      <p style=" text-align: justify;">Welcome to my website. Proficient in using Java, R and Python on Linux and Windows environment. Strong working
+    experience using Google Cloud DataProc and AWS cloud services.</p>
     </div>
 
-    <div class="w3-col m3">
-      <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+    <div class="w3-col m4">
+      <p style=" text-align: justify;">Welcome to my website. Proficient in using Java, R and Python on Linux and Windows environment. Strong working
+    experience using Google Cloud DataProc and AWS cloud services.</p>
     </div>
 
-    <div class="w3-col m3">
-      <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+     <div class="w3-col m4">
+      <p style=" text-align: justify;">Welcome to my website. Proficient in using Java, R and Python on Linux and Windows environment. Strong working
+    experience using Google Cloud DataProc and AWS cloud services.</p>
     </div>
-  </div>
+  </div> -->
 
-  <div class="w3-row-padding w3-center w3-section">
+  <!-- <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
       <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
     </div>
@@ -197,7 +229,7 @@ experience using Google Cloud DataProc and AWS cloud services.</p> -->
       <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
     </div>
     <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
-  </div>
+  </div> -->
 </div>
 
 <!-- Modal for full size images on click-->
